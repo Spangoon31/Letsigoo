@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's GO</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="FloatMenu">
+    <center>
+        <a href="index.html" class="logo-text">Let's GO</a>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <div class="menu-links">
+            <a href="index.html">
+                <img src="Home.svg" alt="Inicio" class="menu-icon">
+                Inicio
+            </a>
+            <a href="hombre.html">
+                <img src="Men.svg" alt="Hombre" class="menu-icon">
+                Hombre
+            </a>
+            <a href=".html">
+                <img src="women.svg" alt="Mujer" class="menu-icon">
+                Mujer
+            </a>
+            <a href="Index.html">
+                <img src="soporte.svg" alt="Articulos" class="menu-icon">
+                Soporte
+            </a>
+        </div>
+    </center>
+</div>
+
+<center>
+    <div class="xd">
+
+<div class="logostico"><img src="Logo.png" alt=""></div>
+        <br><br>
+        <section class="gallery">
+            <div class="gallery-item">
+                <img src="Darkstars.png" alt="Descripción de la imagen 1">
+                <div class="description">
+                    <h3>Model</h3>
+                    <p>Descripción</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="Darkstars.png" alt="Descripción de la imagen 2">
+                <div class="description">
+                    <h3>Model</h3>
+                    <p>Descripción</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="Darkstars.png" alt="Descripción de la imagen 3">
+                <div class="description">
+                    <h3>Model</h3>
+                    <p>Descripción</p>
+                </div>
+            </div>
+        </section>
+    </div>  
+</center>
+
+<div class="Redesymas">
+    <a href=""><img src="instagram.svg" alt="Instagram"></a>
+    <a href=""><img src="whatsapp.svg" alt="WhatsApp"></a>
+    <a href=""><img src="tiktok.svg" alt="TikTok"></a>
+</div>
+
+<script src="lenguaje.js"></script>
+<script>
+    function toggleMenu() {
+        const menuLinks = document.querySelector('.menu-links');
+        menuLinks.classList.toggle('active');
+    }
+</script>
+
+<div class="fill"></div>
+
+<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false"></body>
+
+</body>
+</html>
